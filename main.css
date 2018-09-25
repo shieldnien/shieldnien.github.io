@@ -7,6 +7,7 @@ html {
 body {
     background: #fff;
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+    padding-left: 11em;
     color: #545454;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 16px;
@@ -15,7 +16,12 @@ body {
     max-width: 800px;
     padding: 2em 2em 4em;
 }
-
+  ul.navbar {
+    position: absolute;
+    top: 2em;
+    left: 1em;
+    width: 9em 
+}
 h1, h2, h3, h4, h5, h6 {
     color: #222;
     font-weight: 600;
