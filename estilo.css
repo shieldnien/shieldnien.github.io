@@ -34,7 +34,11 @@ img {
     max-height:250px;
 }
 audio {
-    width:50%;
+    width:25%;
+}
+audio:hover {
+    width:100%;
+    transition:0.3s;
 }
 .tarjeta {
     height:auto;
