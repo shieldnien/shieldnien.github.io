@@ -36,10 +36,6 @@ img {
 audio {
     width:25%;
 }
-audio:hover {
-    width:100%;
-    transition: 0.5s;
-}
 .tarjeta {
     height:auto;
     width: 300px;
