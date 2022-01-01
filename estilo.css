@@ -1,0 +1,83 @@
+body {
+    background-image: url("img/listaff.jpg");
+    background-position: center;
+    background-repeat: repeat;
+    background-size:cover;
+    height:100vh;
+}
+.cabecera {
+    background-color:white;
+    opacity:80%;
+    font-family:fantasy;
+    text-align:center;
+    font-size:4rem;
+}
+.orden > li {
+    display:table-cell;
+}
+nav, .scrltarjeta {
+    display:block;
+    margin:50px 0 50px 0;
+    text-align:center;
+}
+nav{
+    background-color: white;
+    padding:5px;
+    border: 1px solid black;
+}
+.scrltarjeta {
+    width: auto;
+    height: fit-content;
+    overflow-y:scroll;
+    scroll-behavior:smooth;
+}
+.tarjeta > img {
+    max-width:250px;
+    max-height:250px;
+}
+audio {
+    width:75%;
+}
+.tarjeta {
+    height:fit-content;
+    width: 300px;
+    text-align:center;
+    background-color:white;
+    border: 1px solid black;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+.tarjeta:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    padding:36px;
+}
+.contenedor {
+    padding: 0 2px 16px 0;
+}
+.seccion,.articulo {
+    text-align:center;
+}
+.scrlcontenido {
+    display:block;
+    border: 1px solid black;
+    background-color: white;
+    margin: 50px 16px 50px 16px;
+    overflow-y:scroll;
+    scroll-behavior:smooth;
+}
+.menu {
+    margin: 50px 0 50px 0;
+}
+.scrlmenu {
+    background-color:white;
+    border: 1px solid black;
+    display:block;
+    width: 200px;
+    height: auto;
+    overflow-y:scroll;
+    scroll-behavior:smooth;
+}
+footer {
+    background-color: white;
+    text-align:center;
+}
