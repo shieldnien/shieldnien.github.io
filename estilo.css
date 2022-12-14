@@ -5,6 +5,9 @@ body {
     background-size:cover;
     height:100vh;
 }
+img {
+    max-width: 300px;
+}
 .cabecera {
     background-color:white;
     opacity:80%;
@@ -12,10 +15,8 @@ body {
     text-align:center;
     font-size:4rem;
 }
-.orden > li {
-    display:table-cell;
-}
-nav, .scrltarjeta {
+
+nav {
     display:block;
     margin:50px 0 50px 0;
     text-align:center;
@@ -24,19 +25,6 @@ nav{
     background-color: white;
     padding:5px;
     border: 1px solid black;
-}
-.scrltarjeta {
-    width: auto;
-    height: fit-content;
-    overflow-y:scroll;
-    scroll-behavior:smooth;
-}
-.tarjeta > img {
-    max-width:250px;
-    max-height:250px;
-}
-audio {
-    width:75%;
 }
 .tarjeta {
     height:fit-content;
@@ -57,26 +45,7 @@ audio {
 .seccion,.articulo {
     text-align:center;
 }
-.scrlcontenido {
-    display:block;
-    border: 1px solid black;
-    background-color: white;
-    margin: 50px 16px 50px 16px;
-    overflow-y:scroll;
-    scroll-behavior:smooth;
-}
-.menu {
-    margin: 50px 0 50px 0;
-}
-.scrlmenu {
-    background-color:white;
-    border: 1px solid black;
-    display:block;
-    width: 200px;
-    height: auto;
-    overflow-y:scroll;
-    scroll-behavior:smooth;
-}
+
 footer {
     background-color: white;
     text-align:center;
